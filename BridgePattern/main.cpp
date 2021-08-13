@@ -1,7 +1,7 @@
 #include <iostream>
 
 /**
- * Implemented this deisng pattern to prevent implementing the following classes;
+ * Implemented this design pattern to prevent implementing the following classes;
  * MqttLightDevice, WebSocketLightDevice, MqttDoorBellDevice, WebSocketDoorBellDevice
 */
 

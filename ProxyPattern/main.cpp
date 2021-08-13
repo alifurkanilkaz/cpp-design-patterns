@@ -1,4 +1,5 @@
 #include <iostream>
+
 typedef std::string MAC;
 
 class IMACProvider {
@@ -45,4 +46,6 @@ int main() {
     std::cout << "Get MAC -> " + macProvider->getMAC() << std::endl;
 
     delete macProvider;
+
+    return 0;
 }
